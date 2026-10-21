@@ -1,6 +1,6 @@
 # Lab Architecture & Network Setup
 
-![[soc_labs/edr-limacharlie/assets/lab_architecture.png]]
+![[soc_labs/edr_limacharlie/assets/lab_architecture.png]]
 
 * **EDR Cloud Tenant:** LimaCharlie SaaS organization configured with real-time detection routing.
 * **Target Endpoint:** Windows 11 Enterprise VM (`DESKTOP-LQRC88Q`) running the 64-bit LimaCharlie sensor (`rphcp` kernel-level service).

@@ -17,7 +17,7 @@ Coming from a development background, I understand programming logic, data struc
 | **Lab 2** | **EDR Operations & Threat Emulation** | LimaCharlie EDR, Atomic Red Team, PowerShell | **In Progress** |
 | **Lab 3** | **Phishing & Malicious Artifact Triage** | REMnux, CyberChef, Sandbox Analysis | *Queued* |
 | **Lab 4** | **Perimeter Defense & Firewall Monitoring** | pfSense, Suricata IDS/IPS, Syslog to SIEM | *Queued* |
-### Lab Summaries
+### Lab Summaries & Direct Links
 
 #### [Lab 1: Centralized SIEM & Telemetry Pipeline (Splunk + Sysmon)](soc_labs/siem_splunk/README.md)
 * **Objective:** Build a self-contained log forwarding pipeline from scratch and detect authentication abuse and Living-Off-The-Land (LOLBAS) tradecraft.
@@ -27,7 +27,7 @@ Coming from a development background, I understand programming logic, data struc
 	* **Registry Run Key Persistence (Sysmon EventCode 13):** Emulated auto-start persistence via `reg.exe` targeting `CurrentVersion\Run`.
 	* **LOLBAS File Transfer (Sysmon EventCode 1):** Tested file ingress using native tools (`certutil` vs. `bitsadmin`), observed real-time Microsoft Defender blocking behavior, and tracked parent-child process lineage (`powershell.exe` $\rightarrow$ `bitsadmin.exe`).
 
-#### Lab 2: Enterprise EDR & Attack Emulation (LimaCharlie + Atomic Red Team)
+#### [Lab 2: Enterprise EDR & Attack Emulation (LimaCharlie + Atomic Red Team)](soc_labs/edr_limacharlie/README.md)
 * **Objective:** Move from passive log analysis to active, kernel-level endpoint detection, real-time process monitoring, and host containment.
 * **Architecture:** LimaCharlie cloud EDR tenant paired with an active sensor deployed on a Windows endpoint, running the Atomic Red Team execution framework.
 * **Focus Areas:**

@@ -9,7 +9,15 @@ My goals were simple:
 2. Simulate realistic attacker techniques (authentication brute force, registry persistence, Living-Off-The-Land binaries).
 3. Author practical SPL (Splunk Processing Language) detection queries and handle the data quirks of Windows event logging.
 
+You can view the lab architecture [here](lab_architecture_network_setup)
+
 ---
+## Scenarios
+### [Scenario 1 - Authentication Guessing & Brute-Force (T1110.001)](scenarios/scenario_1_brute_force)
+### [Scenario 2 - Persistence via Registry Run Key (T1547.001)](scenarios/scenario_2_persistence)
+### [Scenario 3 - LOLBAS Download Attempt & Antivirus Interaction (T1197)](scenarios/scenario_3_lolbas)
+
+--- 
 ## Practical Troubleshooting & Engineering Hurdles
 
 Building this pipeline was not plug-and-play. 
