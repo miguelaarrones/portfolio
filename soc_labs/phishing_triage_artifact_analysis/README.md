@@ -20,10 +20,10 @@ You can view the architecture and the investigation pipeline of this lab [here](
 
 ---
 ## Investigation Walkthrough
-### [Phase 1: Authentication Header Triage](investigation/phase_1_email_triage)
-### [Phase 2: Multi-Stage Script Deobfuscation](investigation/phase_2_script_deobfuscation)
-### [Phase 3: Artifact Triage & Threat Hunt Pivot](investigation/phase_3_artifact_triage_threat_hunt)
-### [Indicators of Compromise (IOCs), Containment & Remediation](investigation/phase_4_iocs_containment)
+### [Phase 1: Authentication Header Triage](investigation/phase_1_email_triage.md)
+### [Phase 2: Multi-Stage Script Deobfuscation](investigation/phase_2_script_deobfuscation.md)
+### [Phase 3: Artifact Triage & Threat Hunt Pivot](investigation/phase_3_artifact_triage_threat_hunt.md)
+### [Indicators of Compromise (IOCs), Containment & Remediation](investigation/phase_4_iocs_containment.md)
 
 ---
 ## Technical Hurdles & Troubleshooting
