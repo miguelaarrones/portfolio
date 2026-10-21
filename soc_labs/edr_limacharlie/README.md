@@ -13,14 +13,14 @@ My goals for this project were:
 3. Author production-grade **Detection and Response (D&R)** rules in LimaCharlie using structured YAML logic.
 4. Investigate process ancestry graphs, parent-child PID relationships, and troubleshoot real-world detection engineering edge cases.
 
-You can view the lab architecture [here](lab_architecture_network_setup)
+You can view the lab architecture [here](lab_architecture_network_setup.md)
 
 ---
 ## Scenarios
-### [Scenario 1: Execution Policy Bypass (MITRE ATT&CK T1059.001)](scenarios/scenario_1_execution_policy_bypass)
-### [Scenario 2: Defense Evasion via Event Log Clearing (MITRE ATT&CK T1070)](scenarios/scenario_2_defense_evasion_event_log_clearing)
-### [Scenario 3: Persistence via Scheduled Task Creation (MITRE ATT&CK T1053.005)](scenarios/scenario_3_persistence_scheduled_task)
-### [Scenario 4: Discovery Burst & Process Ancestry Hunting (MITRE ATT&CK T1082)](scenarios/scenario_4_discovery_burst)
+### [Scenario 1: Execution Policy Bypass (MITRE ATT&CK T1059.001)](scenarios/scenario_1_execution_policy_bypass.md)
+### [Scenario 2: Defense Evasion via Event Log Clearing (MITRE ATT&CK T1070)](scenarios/scenario_2_defense_evasion_event_log_clearing.md)
+### [Scenario 3: Persistence via Scheduled Task Creation (MITRE ATT&CK T1053.005)](scenarios/scenario_3_persistence_scheduled_task.md)
+### [Scenario 4: Discovery Burst & Process Ancestry Hunting (MITRE ATT&CK T1082)](scenarios/scenario_4_discovery_burst.md)
 
 --- 
 ## Practical Troubleshooting & Engineering Hurdles
