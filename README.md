@@ -35,14 +35,14 @@ Coming from a development background, I understand programming logic, data struc
 	* Emulating mapped MITRE ATT&CK techniques (LSASS credential dumping, execution policy bypasses).
 	* Writing custom Detection & Response (D&R) rules and executing automated host isolation.
 
-#### Lab 3: Phishing & Malicious Artifact Triage (REMnux + CyberChef)  *(In Progress)*
+#### [Lab 3: Phishing & Malicious Artifact Triage (CyberChef)](soc_labs/phishing_triage_artifact_analysis/README.md)
 * **Objective:** Triage suspicious emails and deobfuscate initial-access scripts typically reported by end users.
 * **Focus Areas:**
 	* Extracting and verifying email authentication headers (`Received:`, SPF, DKIM, DMARC) to identify spoofing.
 	* Safely unpacking and decoding layered scripts (base64, character replacements, download cradles) in CyberChef.
 	* Defanging and documenting Indicators of Compromise (IOCs) for blocklists and incident reports.
 
-#### Lab 4: Firewall & Perimeter Monitoring (pfSense + Syslog to SIEM) *(Queued)*
+#### Lab 4: Firewall & Perimeter Monitoring (pfSense + Syslog to SIEM) *(In Progress)*
 * **Objective:** Understand network boundaries, stateful packet filtering, and perimeter alert correlation.
 * **Architecture:** pfSense Community Edition virtual router routing traffic for an internal test segment and shipping firewall state logs via Syslog (UDP 514) to the SIEM.
 * **Focus Areas:**
