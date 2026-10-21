@@ -19,7 +19,7 @@ Coming from a development background, I understand programming logic, data struc
 | **Lab 4** | **Perimeter Defense & Firewall Monitoring** | pfSense, Suricata IDS/IPS, Syslog to SIEM | *Queued* |
 ### Lab Summaries
 
-#### Lab 1: Centralized SIEM & Telemetry Pipeline (Splunk + Sysmon)
+#### [Lab 1: Centralized SIEM & Telemetry Pipeline (Splunk + Sysmon)](siem_splunk/README.md)
 * **Objective:** Build a self-contained log forwarding pipeline from scratch and detect authentication abuse and Living-Off-The-Land (LOLBAS) tradecraft.
 * **Architecture:** Splunk Enterprise hosted on Ubuntu Server 24.04 LTS ingesting events from a Windows client running Microsoft Sysmon via Splunk Universal Forwarder.
 * **What I Simulated:**
