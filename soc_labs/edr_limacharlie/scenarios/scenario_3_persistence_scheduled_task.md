@@ -35,4 +35,4 @@ rules:
 * **Process Path:** `C:\WINDOWS\system32\schtasks.exe` (PID: `6980`)
 * **Arguments:** `"SCHTASKS /Create /SC ONCE /TN spawn /TR C:\windows\system32\cmd.exe /ST 20:10`
 * **Parent Executable (`event/PARENT`):** cmd.exe` (PID: `3304`)
-![[scheduled_task.png]]
+![](../assets/scheduled_task.png)

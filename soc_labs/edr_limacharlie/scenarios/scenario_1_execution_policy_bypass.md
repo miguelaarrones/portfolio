@@ -37,4 +37,4 @@ rules:
 * **Command Line (`event/COMMAND_LINE`):** `"C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass ...`
 * **Parent Executable (`event/PARENT`):** `powershell.exe` (PID: `8808`)
 * **Signature Status (`FILE_IS_SIGNED`):** `1` (Highlighting why signature-based AV ignores it: the executing binary itself is an authentic Microsoft-signed binary).
-![[powershell_bypass.png]]
+![](../assets/powershell_bypass.png)

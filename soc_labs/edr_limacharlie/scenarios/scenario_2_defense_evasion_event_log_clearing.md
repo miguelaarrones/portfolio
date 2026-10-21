@@ -38,4 +38,4 @@ rules:
 * **Arguments:** `"C:\WINDOWS\system32\wevtutil.exe" cl Application`
 * **Parent Executable (`event/PARENT`):** `powershell.exe` (PID: `8808`)
 * **SOC Significance:** Classified as **Priority 1 (Critical)** because standard operational workflows should never wipe security or application event logs outside of automated archival maintenance.
-![[wevutil_cleanup.png]]
+![](../assets/wevutil_cleanup.png)
