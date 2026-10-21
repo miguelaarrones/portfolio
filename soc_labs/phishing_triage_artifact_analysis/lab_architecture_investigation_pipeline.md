@@ -1,1 +1,1 @@
-![[soc_labs/phishing_triage_artifact_analysis/assets/lab_architecture.png]]
+![](assets/lab_architecture.png)
