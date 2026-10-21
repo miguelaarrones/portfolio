@@ -27,7 +27,7 @@ Coming from a development background, I understand programming logic, data struc
 	* **Registry Run Key Persistence (Sysmon EventCode 13):** Emulated auto-start persistence via `reg.exe` targeting `CurrentVersion\Run`.
 	* **LOLBAS File Transfer (Sysmon EventCode 1):** Tested file ingress using native tools (`certutil` vs. `bitsadmin`), observed real-time Microsoft Defender blocking behavior, and tracked parent-child process lineage (`powershell.exe` $\rightarrow$ `bitsadmin.exe`).
 
-#### Lab 2: Enterprise EDR & Attack Emulation (LimaCharlie + Atomic Red Team) *(In Progress)*
+#### Lab 2: Enterprise EDR & Attack Emulation (LimaCharlie + Atomic Red Team)
 * **Objective:** Move from passive log analysis to active, kernel-level endpoint detection, real-time process monitoring, and host containment.
 * **Architecture:** LimaCharlie cloud EDR tenant paired with an active sensor deployed on a Windows endpoint, running the Atomic Red Team execution framework.
 * **Focus Areas:**
@@ -35,7 +35,7 @@ Coming from a development background, I understand programming logic, data struc
 	* Emulating mapped MITRE ATT&CK techniques (LSASS credential dumping, execution policy bypasses).
 	* Writing custom Detection & Response (D&R) rules and executing automated host isolation.
 
-#### Lab 3: Phishing & Malicious Artifact Triage (REMnux + CyberChef) *(Queued)*
+#### Lab 3: Phishing & Malicious Artifact Triage (REMnux + CyberChef)  *(In Progress)*
 * **Objective:** Triage suspicious emails and deobfuscate initial-access scripts typically reported by end users.
 * **Focus Areas:**
 	* Extracting and verifying email authentication headers (`Received:`, SPF, DKIM, DMARC) to identify spoofing.
