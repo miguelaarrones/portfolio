@@ -12,4 +12,4 @@ index="endpoint" EventCode=13 TargetObject="*CurrentVersion\\Run*"
 ```
 * **Investigation takeaway:** The results clearly showed `reg.exe` writing `cmd.exe /c calc.exe` under key `SecurityUpdater`. In the same search window, I also spotted legitimate software (`msedge.exe` writing `MicrosoftEdgeAutoLaunch`), giving me a realistic look at how analysts differentiate benign baseline activity from suspicious persistence.
 ### Dashboard
-![[registry_run_modification.png]]
+![](../assets/registry_run_modification.png)

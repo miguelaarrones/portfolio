@@ -29,4 +29,4 @@ index="endpoint" EventCode=1 Image="*net.exe"
 ```
 * **What this revealed:** Sysmon clearly captured `powershell.exe` launching `net.exe` and exposed the exact loop arguments (`/user:test_adversary WrongPass...`), proving the activity was an automated script rather than human console input.
 ### Dashboard
-![[brute_force_process_lineage.png]]
+![](../assets/brute_force_process_lineage.png)

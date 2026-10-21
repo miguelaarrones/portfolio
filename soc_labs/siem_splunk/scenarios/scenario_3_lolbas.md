@@ -17,4 +17,4 @@ index="endpoint" EventCode=1 (Image="*\\bitsadmin.exe" OR OriginalFileName="bits
 ```
 * **Why check `OriginalFileName`:** If a threat actor renames `bitsadmin.exe` to something like `svchost.exe` to bypass simple name filters, Sysmon still pulls the internal PE header `OriginalFileName`, ensuring the detection still catches the transfer.
 ### Dashboard
-![[bitsadmin_execution.png]]
+![](../assets/bitsadmin_execution.png)
