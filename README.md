@@ -42,7 +42,7 @@ Coming from a development background, I understand programming logic, data struc
 	* Safely unpacking and decoding layered scripts (base64, character replacements, download cradles) in CyberChef.
 	* Defanging and documenting Indicators of Compromise (IOCs) for blocklists and incident reports.
 
-#### Lab 4: Firewall & Perimeter Monitoring (pfSense + Syslog to SIEM) *(In Progress)*
+#### [Lab 4: Firewall & Perimeter Monitoring (pfSense + Syslog to SIEM)](soc_labs/firewall_pfsense/README.md)
 * **Objective:** Understand network boundaries, stateful packet filtering, and perimeter alert correlation.
 * **Architecture:** pfSense Community Edition virtual router routing traffic for an internal test segment and shipping firewall state logs via Syslog (UDP 514) to the SIEM.
 * **Focus Areas:**
